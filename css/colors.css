@@ -15,8 +15,20 @@
 	background-color: rgb(225,225,225); 
 }
 
+.background-night {
+	background-color: #18212a;
+}
+
+.background-day {
+	background-color: #76a7fa;
+}
+
 .background-white {
 	background-color: #fff;
+}
+
+.yellow {
+	color: #fbd20f;
 }
 
 .white {
