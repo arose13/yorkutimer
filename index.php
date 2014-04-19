@@ -18,13 +18,18 @@
 	    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500|Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
 	    <link rel="stylesheet" type="text/css" href="css/colors.css">
 	    <link rel="stylesheet" type="text/css" href="css/text.css">
-	    <link rel="stylesheet" type="text/css" href="css/ui.css"
+	    <link rel="stylesheet" type="text/css" href="css/ui.css">
+	    <link rel="stylesheet" type="text/css" href="css/shapes.css">
 	</head>
 
-	<body>
+	<body class="background-day">
 
 		<div class="user-container">
-			<p id='clock' class='font-roboto-slab light font-size-128 center-align'></p>
+			<div>
+				<p id='clock' class='font-roboto-slab light font-size-64 center-align white'></p>
+				<p id='timer' class='font-roboto-slab thin font-size-128 center-align white'>1h30m</p>
+				<p id='finishTime' class='font-roboto-slab light font-size-64 center-align white'>7:30:45</p>
+			</div>
 		</div>
 
 		<script src="js/jquery-1.10.2.min.js"></script>
