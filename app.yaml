@@ -1,0 +1,21 @@
+application: yorktimer
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /
+  script: main.php
+
+# UNIVERSALS
+- url: /.*?([^/]*\.css)
+  static_files: css/\1
+  upload: css/.*\.css
+
+- url: /.*?([^/]*\.js)
+  script: js/\1

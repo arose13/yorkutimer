@@ -1,0 +1,90 @@
+.text-shadow {
+	text-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+.text-shadow-light {
+	text-shadow: 0.1em 0.1em 0.2em #111;
+}
+
+/* IMPORTED FONTS */ 
+@import url(http://weloveiconfonts.com/api/?family=brandico|fontawesome);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* CUSTOM FONTS */
+.font-lobster {
+	font-family: 'Lobster', cursive;
+	font-size:96px;
+	font-weight:100; 
+}
+
+.font-droid {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 400;
+}
+
+.font-roboto-slab {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+	
+	.font-roboto-slab .thin {
+		font-weight: 100;
+	}
+
+	.font-roboto-slab .light {
+		font-weight: 300;
+	}
+
+	.font-roboto-slab .bold {
+		font-weight: 700;
+	}
+
+.font-roboto {
+	font-family: 'Roboto', sans-serif;
+}	
+	
+	.font-roboto .ultralight {
+		font-weight: 100;
+	}
+
+	.font-roboto .light {
+		font-weight: 300;
+	}
+
+	.font-roboto .medium {
+		font-weight: 500;
+	}
+
+	.font-roboto .bold {
+		font-weight: 700;
+	}
+
+	.font-roboto .ultrabold {
+		font-weight: 900;
+	}
+
+.italic {
+	font-style: italic;
+}
+
+ /* SIZES */
+.font-size-20 {
+	font-size: 20px;
+} 
+
+.font-size-28 {
+	font-size: 28px;
+}
+
+.font-size-64 {
+	font-size: 64px;
+}

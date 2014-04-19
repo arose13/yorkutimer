@@ -1,0 +1,171 @@
+/* UI CSS */
+.user-container {
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.likeBar {
+	margin: 4px 0;
+	height: 2px;
+	overflow: hidden;
+	opacity: 0.66;
+}
+	.likeBar .likes {
+		float: left;
+		height: 2px;
+		background-color: #7b0;
+	}
+
+	.likeBar .dislikes {
+		float: left;
+		height: 2px;
+		background-color: #f00;
+	}
+
+.videoBlock {
+	position: relative;
+}
+
+.videoBlock .previous {
+	left: 0;
+}
+
+.videoBlock .next {
+	right: 0;
+}
+
+.videoBlock .previous, .videoBlock .next {
+	display: block;
+	height: 438px;
+	width: 80px;
+	position: absolute;
+	text-indent: -999px;
+	overflow: hidden;
+	top: 0;
+}
+
+.videoBlock .icon {
+	width: 34px;
+	height: 68px;
+	display: block;
+	position: absolute;
+	top: 60%;
+	left: 0;
+	margin-top: -34px;
+}
+	.videoBlock .previous .icon {
+		background: url(http://i.imgur.com/PG2yHJY.png) no-repeat 0 0;
+	}
+
+	.videoBlock .previous:hover .icon {
+		background: url(http://i.imgur.com/PG2yHJY.png) no-repeat 0 -68px;
+	}
+
+	.videoBlock .next .icon {
+		left: auto;
+		right: 0;
+		background: url(http://i.imgur.com/PG2yHJY.png) no-repeat -34px 0;
+	}
+
+	.videoBlock .next:hover .icon {
+		left: auto;
+		right: 0;
+		background: url(http://i.imgur.com/PG2yHJY.png) no-repeat -34px -68px;
+	}
+
+.actionbar-search {
+	max-width: 400px;
+	min-width: 250px;
+}
+
+.hrThin {
+	margin: 5px 0;
+	border: 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #fff;
+}
+
+.hrDark {
+	border-top: #8F8F8F 1px solid;
+	border-bottom: #ddd 1px solid;
+}
+
+.word-wrap {
+	word-wrap: break-word;
+}
+
+.white-space {
+	white-space: pre-wrap;
+}
+
+/* GRAPHICS */
+.shadow {
+	box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+}
+
+.radius-8 {
+	border-radius: 8px;
+}
+
+.radius-16 {
+	border-radius: 16px;
+}
+
+.opacity-half {
+	opacity: 0.5;
+}
+
+.opacity-threefour {
+	opacity: 0.75;
+}
+
+/* PADDING AND MARGINS */
+.padding-actionbar {
+	padding:10px 15px 5px 15px;
+	margin-bottom: 0;
+}
+
+.padding-actionbar-search {
+	padding: 8px 15px 5px 15px;
+	margin-bottom: 0;
+}
+
+.padding-8 {
+	padding: 0 8px 8px 8px;
+}
+
+.padding-16 {
+	padding: 0 16px 16px 16px;
+}
+
+.padding-32 {
+	padding: 0 32px 32px 32px;
+}
+
+.margin-8 {
+	margin: 8px;
+}
+
+.margin-16 {
+	margin: 16px;
+}
+
+.margin-32 {
+	margin: 32px;
+}
+
+/* ICON LIST URL */
+.icon-actionbar {
+	opacity: 0.25;
+}
+	.icon-actionbar:hover {
+		opacity: 1;
+	}
+/* 
+setting = http://i.imgur.com/9AWOiq6.png
+page    = http://i.imgur.com/gM00ria.png
+edit    = http://i.imgur.com/dxmriYw.png 
+search  = http://i.imgur.com/ir2aSWO.png
+*/

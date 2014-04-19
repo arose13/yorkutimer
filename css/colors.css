@@ -1,0 +1,28 @@
+.text-color-white {
+	color: #efefef;
+}
+
+.text-color-actionbar-gray {
+	color: #999999;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.text-gray {
+	color: #999;
+}
+
+.background-content {
+	background-color: rgb(225,225,225); 
+}
+
+.background-white {
+	background-color: #fff;
+}
+
+.white {
+	color: #fff;
+}
+
+.darkGray {
+	color: #454545;
+}
