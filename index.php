@@ -25,10 +25,10 @@
 	<body class="background-day">
 
 		<div class="user-container">
-			<div>
-				<p id='clock' class='font-roboto-slab light font-size-64 center-align white'></p>
-				<p id='timer' class='font-roboto-slab thin font-size-128 center-align white'>1h30m</p>
-				<p id='finishTime' class='font-roboto-slab light font-size-64 center-align white'>7:30:45</p>
+			<div id='sun' class='center-div'>
+				<p id='clock' class='font-roboto-slab light font-size-64 center-align'></p>
+				<p id='timer' class='font-roboto-slab thin font-size-128 center-align'>1h30m</p>
+				<p id='finishTime' class='font-roboto-slab light font-size-64 center-align'>7:30:45</p>
 			</div>
 		</div>
 
