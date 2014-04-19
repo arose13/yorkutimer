@@ -1,0 +1,13 @@
+#sun {
+	background-color: #fbcb43;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+}
+
+#moon {
+	background-color: #rrggbb;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+}
