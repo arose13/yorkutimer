@@ -22,14 +22,22 @@
 	    <link rel="stylesheet" type="text/css" href="css/shapes.css">
 	</head>
 
-	<body class="background-day">
+	<body class="background-night">
 
-		<div class="user-container">
-			<div id='sun' class='center-div'>
+		<div class="user-container" style='padding-top:40px;'>
+			<div id='moon' class='center-div' style='padding-top:40px;'>
 				<p id='clock' class='font-roboto-slab light font-size-64 center-align'></p>
 				<p id='timer' class='font-roboto-slab thin font-size-128 center-align'>1h30m</p>
 				<p id='finishTime' class='font-roboto-slab light font-size-64 center-align'>7:30:45</p>
 			</div>
+
+			<!---
+			<div>
+				<img 
+					src="http://media-cache-ak0.pinimg.com/736x/05/ba/e7/05bae733a98b5827ba393eb78eb002f5.jpg" 
+					width="200px" />
+			</div> 
+			--> 	
 		</div>
 
 		<script src="js/jquery-1.10.2.min.js"></script>
