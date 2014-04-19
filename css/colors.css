@@ -27,8 +27,13 @@
 	background-color: #fff;
 }
 
+.brown {
+	color: #75553c;
+}
+
 .yellow {
-	color: #fbd20f;
+	/*color: #fbd20f;*/
+	color: #fbcb43;
 }
 
 .white {
