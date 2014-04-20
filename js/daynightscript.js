@@ -16,7 +16,7 @@ function makeDay() {
 
 	// Modify Text Style
 	$("#clock").addClass("text-shadow-light white");
-	$("timer").addClass("text-shadow-light white");
+	$("timer").addClass("text-shadow-light white thin");
 	$("#finishTime").addClass("text-shadow-light white");
 }
 
@@ -27,7 +27,7 @@ function makeNight() {
 
 	// Modify Text Style
 	$("#clock").removeClass("text-shadow-light white");
-	$("#timer").removeClass("text-shadow-light white");
+	$("#timer").removeClass("text-shadow-light white thin");
 	$("#finishTime").removeClass("text-shadow-light white");
 
 }

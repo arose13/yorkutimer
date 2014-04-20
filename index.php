@@ -35,6 +35,7 @@
 		<script src="js/jquery-1.10.2.min.js"></script>
 		<script src="yutimer.js"></script>
 		<script src="daynightscript.js"></script>
+		<script src="countdown.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script>
 			$(document).ready( 
@@ -48,11 +49,11 @@
 			    if (isDay(new Date())) {
 			    	console.log("it's day");
 			    	makeDay();
-
 			    } else {
 			    	console.log("it's night");
 			    	makeNight();
 			    }
+			    // End of Day or Night Checker
 
 			});		
 		</script>
