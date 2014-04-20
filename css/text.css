@@ -3,6 +3,10 @@
 }
 
 .text-shadow-light {
+	text-shadow: 0.05em 0.05em 0.1em #444;
+}
+
+.text-shadow-heavy {
 	text-shadow: 0.1em 0.1em 0.2em #111;
 }
 
@@ -33,7 +37,6 @@
 
 .font-roboto-slab {
 	font-family: 'Roboto Slab', serif;
-	font-weight: 400;
 }
 	
 	.font-roboto-slab .thin {
