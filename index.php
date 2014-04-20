@@ -42,13 +42,23 @@
 
 		<script src="js/jquery-1.10.2.min.js"></script>
 		<script src="yutimer.js"></script>
+		<script src="daynightscript.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script>
-			$(document).ready( function() {
+			$(document).ready( 
+				function() {
 			    loop = setInterval( function() {
 			        currentTime = new Date()
 			        $("#clock").text(getTime(currentTime));
 			    }, 200);
+
+			    // Day or Night Checker
+			    if (isDay(new Date())) {
+			    	console.log("it's day");
+			    } else {
+			    	console.log("it's night");
+			    }
+
 			});		
 		</script>
 	</body>
