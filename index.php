@@ -24,12 +24,25 @@
 
 	<body class="background-day">
 
+		<!-- Main Ui -->
 		<div id='container' class='user-container' style='padding-top:40px;'>
 			<div id='object' class='center-div font-roboto-slab' style='padding-top:40px;'>
 				<p id='clock' class='light text-shadow-light font-size-64 center-align white'></p>
-				<p id='timer' class='thin text-shadow-light font-size-128 center-align white'>1h30m</p>
+
+				<!-- Input Timer -->
+				<form class='form-inline center-align'>
+					<input type='number' class='input-number-width' name='inputHour' placeholder='Hours'>
+					<input type='number' class='input-number-width' name='inputMinute' placeholder='Mins'>
+					<br/><br/>
+					<button id='beginBtn' type='submit' class='btn btn-lg btn-primary shadow'>Begin</button>
+				</form>
+
+				<p id='timer' class='hide thin text-shadow-light font-size-128 center-align white'>1h30m</p>
 				<p id='finishTime' class='light text-shadow-light font-size-64 center-align white'>7:30:45</p>
-			</div>	
+			</div>
+
+			<!-- Credits -->
+			<!-- <p><small>Stephen Anthony Rose + Toni Kunic</small></p> -->	
 		</div>
 
 		<script src="js/jquery-1.10.2.min.js"></script>
@@ -41,7 +54,7 @@
 			$(document).ready( 
 				function() {
 			    loop = setInterval( function() {
-			        currentTime = new Date()
+			        currentTime = new Date();
 			        $("#clock").text(getTime(currentTime));
 			    }, 200);
 
@@ -55,6 +68,8 @@
 			    }
 			    // End of Day or Night Checker
 
+			    // Present User Input Interface
+			    $('#inputModal').modal('show');
 			});		
 		</script>
 	</body>

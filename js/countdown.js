@@ -7,11 +7,11 @@ $(document).ready(function () {
 		if (event.which == 13 || event.which == 32) handleOnlyButton();
 	});
 
-	$("#onlybutton").click(handleOnlyButton);
+	$("#beginBtn").click(handleOnlyButton);
 });
 
 function handleOnlyButton() {
-	var state = $("#onlybutton").val();
+	var state = $("#beginBtn").val();
 	if (state == READY) {
 		startCountdown();
 	} else if (state == RUNNING) {
@@ -43,13 +43,13 @@ function startCountdown() {
 
 
 		}, 200);
-		setState($("#onlybutton"), RUNNING);
+		setState($("#beginBtn"), RUNNING);
 	}
 }
 
 function stopCountdown() {
 	clearInterval(loop);
-	setState($("#onlybutton"), READY);
+	setState($("#beginBtn"), READY);
 }
 
 function setState(button, state) {
@@ -83,5 +83,5 @@ function setEnteredSeconds(seconds) {
 
 function returnError(msg) {
 	console.log(msg);
-	$("#notification").text("ERROR IN INPUT");
+	//$("#notification").text("ERROR IN INPUT");
 }

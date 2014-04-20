@@ -18,6 +18,9 @@ function makeDay() {
 	$("#clock").addClass("text-shadow-light white");
 	$("timer").addClass("text-shadow-light white thin");
 	$("#finishTime").addClass("text-shadow-light white");
+
+	// Modify Buttton Style
+	$("#beginBtn").removeClass("btn-inverse").addClass("btn-primary");
 }
 
 function makeNight() {
@@ -30,4 +33,6 @@ function makeNight() {
 	$("#timer").removeClass("text-shadow-light white thin");
 	$("#finishTime").removeClass("text-shadow-light white");
 
+	// Modify Button Style
+	$("#beginBtn").removeClass("btn-primary").addClass("btn-inverse");
 }

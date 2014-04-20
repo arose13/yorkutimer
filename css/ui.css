@@ -97,6 +97,11 @@
 	white-space: pre-wrap;
 }
 
+/* INPUT WIDTH */
+.input-number-width {
+	width: 75px;
+}
+
 /* GRAPHICS */
 .shadow {
 	box-shadow: 0 1px 3px rgba(34,25,25,0.4);
