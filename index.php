@@ -24,20 +24,12 @@
 
 	<body class="background-day">
 
-		<div class="user-container" style='padding-top:40px;'>
-			<div id='' class='center-div font-roboto-slab' style='padding-top:40px;'>
+		<div id='container' class='user-container' style='padding-top:40px;'>
+			<div id='object' class='center-div font-roboto-slab' style='padding-top:40px;'>
 				<p id='clock' class='light text-shadow-light font-size-64 center-align white'></p>
 				<p id='timer' class='thin text-shadow-light font-size-128 center-align white'>1h30m</p>
 				<p id='finishTime' class='light text-shadow-light font-size-64 center-align white'>7:30:45</p>
-			</div>
-
-			<!---
-			<div>
-				<img 
-					src="http://media-cache-ak0.pinimg.com/736x/05/ba/e7/05bae733a98b5827ba393eb78eb002f5.jpg" 
-					width="200px" />
-			</div> 
-			--> 	
+			</div>	
 		</div>
 
 		<script src="js/jquery-1.10.2.min.js"></script>
@@ -55,8 +47,11 @@
 			    // Day or Night Checker
 			    if (isDay(new Date())) {
 			    	console.log("it's day");
+			    	makeDay();
+
 			    } else {
 			    	console.log("it's night");
+			    	makeNight();
 			    }
 
 			});		

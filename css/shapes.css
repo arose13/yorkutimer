@@ -1,11 +1,11 @@
-#sun {
+.sun {
 	background-color: #fbcb43;
 	width: 500px;
 	height: 500px;
 	border-radius: 50%;
 }
 
-#moon {
+.moon {
 	background-color: #b3b3b3;
 	width: 500px;
 	height: 500px;
