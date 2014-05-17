@@ -1,4 +1,4 @@
 yorkutimer
 ==========
 
-The York University branded exam timer. hehe
+The York University branded exam timer.
